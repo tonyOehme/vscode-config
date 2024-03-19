@@ -102,6 +102,7 @@
       "commands": ["workbench.action.quickOpen"]
     },
     { "before": ["leader", "f"], "commands": ["editor.action.formatDocument"] },
+    { "before": ["ä"], "commands": ["workbench.action.showCommands"] },
     {
       "before": ["g", "h"],
       "commands": ["editor.action.showDefinitionPreviewHover"]
