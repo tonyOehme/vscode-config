@@ -1,4 +1,6 @@
-## Getting started
+# Setup Commands
 
-Path: ~/Library/Application\ Support/Code/User/
-# vscode-config
+```
+rm -rf ~/Library/Application\ Support/Code/User/
+~/Library/Application\ Support/Code/User/
+```
