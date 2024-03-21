@@ -155,6 +155,5 @@
   },
   "workbench.activityBar.location": "hidden",
   "window.commandCenter": false,
-  "workbench.layoutControl.enabled": false,
-  "workbench.editor.enablePreview": false
+  "workbench.layoutControl.enabled": false
 }
