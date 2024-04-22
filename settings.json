@@ -90,7 +90,7 @@
       "commands": ["editor.action.marker.next"]
     },
     {
-      "before": ["<leader>", "c", "a"],
+      "before": ["<leader>", "h", "f"],
       "commands": ["editor.action.quickFix"]
     },
     {
