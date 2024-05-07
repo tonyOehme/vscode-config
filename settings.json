@@ -14,7 +14,7 @@
   "oneDarkPro.vivid": true,
   "oneDarkPro.italic": false,
   "security.workspace.trust.untrustedFiles": "open",
-  "terminal.integrated.defaultProfile.windows": "zsh",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
   "editor.unicodeHighlight.ambiguousCharacters": false,
   "liveServer.settings.donotShowInfoMsg": true,
   "editor.suggest.insertMode": "replace",
@@ -102,7 +102,7 @@
       "commands": ["workbench.action.quickOpen"]
     },
     { "before": ["leader", "f"], "commands": ["editor.action.formatDocument"] },
-    { "before": ["ä"], "commands": ["workbench.action.showCommands"] },
+    { "before": [":"], "commands": ["workbench.action.showCommands"] },
     {
       "before": ["g", "h"],
       "commands": ["editor.action.showDefinitionPreviewHover"]
@@ -146,14 +146,15 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "go.toolsManagement.autoUpdate": true,
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.activityBar.location": "hidden",
+  "workbench.activityBar.location": "default",
   "window.commandCenter": false,
-  "workbench.layoutControl.enabled": false
+  "workbench.layoutControl.enabled": false,
+  "dart.flutterSdkPath": "C:\\Users\\tonyo\\development\\flutter"
 }
+
