@@ -1,3 +1,23 @@
+{
+  "workbench.editor.revealIfOpen": true,
+  "workbench.editor.highlightModifiedTabs": false,
+  "editor.cursorBlinking": "solid",
+  "explorer.autoReveal": true,
+  "editor.autoClosingBrackets": "never",
+  "editor.autoClosingQuotes": "never",
+  "editor.cursorSurroundingLines": 8,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "files.trimFinalNewlines": true,
+  "editor.formatOnSave": true,
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "workbench.iconTheme": "material-icon-theme",
+  "oneDarkPro.vivid": true,
+  "oneDarkPro.italic": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.suggest.insertMode": "replace",
   "terminal.integrated.fontFamily": "MesloLGS NF",
   "editor.linkedEditing": true,
   "window.zoomLevel": 0.5,
@@ -82,6 +102,7 @@
       "commands": ["workbench.action.quickOpen"]
     },
     { "before": ["leader", "f"], "commands": ["editor.action.formatDocument"] },
+    { "before": [":"], "commands": ["workbench.action.showCommands"] },
     {
       "before": ["g", "h"],
       "commands": ["editor.action.showDefinitionPreviewHover"]
@@ -134,8 +155,5 @@
   "workbench.activityBar.location": "default",
   "window.commandCenter": false,
   "workbench.layoutControl.enabled": false,
-  "dart.flutterSdkPath": "C:\\Users\\tonyo\\development\\flutter",
-  "workbench.colorTheme": "One Dark Pro Darker",
-  "editor.fontSize": 16,
-  "workbench.iconTheme": "material-icon-theme"
+  "dart.flutterSdkPath": "C:\\Users\\tonyo\\development\\flutter"
 }
